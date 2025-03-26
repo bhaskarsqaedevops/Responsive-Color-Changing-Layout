@@ -3,119 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Comparison Page</title>
+    <title>Comparison Grid</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <button class="header-btn">Comparison</button>
-        </header>
-        
-        <main>
+    <div class="comparison-container">
+        <div class="comparison-header">Comparison</div>
+        <div class="comparison-grid">
+            <!-- First Row -->
+            <div class="column">
+                <div class="company-logo"></div>
+                <div class="feature-benefit">
+                    <span>Feature/Benefit #1</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
+                <div class="feature-description">
+                    <span>Feature/Description #1</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="company-logo"></div>
+                <div class="feature-benefit">
+                    <span>Feature/Benefit #2</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
+                <div class="feature-description">
+                    <span>Feature/Description #2</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="company-logo"></div>
+                <div class="feature-benefit">
+                    <span>Feature/Benefit #3</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
+                <div class="feature-description">
+                    <span>Feature/Description #3</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
+            </div>
 
-            <div class="comparison-section">
-                <div class="company-logo">
-                    <div class="logo-placeholder">Company Logo</div>
+            <!-- Second Row -->
+            <div class="column">
+                <div class="company-logo"></div>
+                <div class="feature-benefit">
+                    <span>Feature/Benefit #1</span>
+                    <button class="color-change-btn">Change</button>
                 </div>
-                <div class="comparison-grid">
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box1">Feature/Benefit #1</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box2">Feature/Benefit #2</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box3">Feature/Benefit #3</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box4">Feature/Description #1</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box5">Feature/Description #2</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box6">Feature/Description #3</button>
-                    </div>
+                <div class="feature-description">
+                    <span>Feature/Description #1</span>
+                    <button class="color-change-btn">Change</button>
                 </div>
             </div>
-            
-            <div class="comparison-section">
-                <div class="company-logo">
-                    <div class="logo-placeholder">Company Logo</div>
+            <div class="column">
+                <div class="company-logo"></div>
+                <div class="feature-benefit">
+                    <span>Feature/Benefit #2</span>
+                    <button class="color-change-btn">Change</button>
                 </div>
-                <div class="comparison-grid">
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box7">Feature/Benefit #1</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box8">Feature/Benefit #2</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box9">Feature/Benefit #3</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box10">Feature/Description #1</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box11">Feature/Description #2</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box12">Feature/Description #3</button>
-                    </div>
+                <div class="feature-description">
+                    <span>Feature/Description #2</span>
+                    <button class="color-change-btn">Change</button>
                 </div>
             </div>
-            
-            <div class="comparison-section">
-                <div class="company-logo">
-                    <div class="logo-placeholder">Company Logo</div>
+            <div class="column">
+                <div class="company-logo"></div>
+                <div class="feature-benefit">
+                    <span>Feature/Benefit #3</span>
+                    <button class="color-change-btn">Change</button>
                 </div>
-                <div class="comparison-grid">
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box13">Feature/Benefit #1</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box14">Feature/Benefit #2</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box15">Feature/Benefit #3</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box16">Feature/Description #1</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box17">Feature/Description #2</button>
-                    </div>
-                    <div class="feature-box">
-                        <button class="feature-btn" data-box-id="box18">Feature/Description #3</button>
-                    </div>
+                <div class="feature-description">
+                    <span>Feature/Description #3</span>
+                    <button class="color-change-btn">Change</button>
                 </div>
             </div>
-        </main>
-        
-        <div class="color-panel">
-            <h3>Color Controls</h3>
-            <div class="control-group">
-                <label for="boxColor">Box Color:</label>
-                <input type="color" id="boxColor" value="#61b3fa">
-                <button id="applyBoxColor">Apply</button>
+
+            <!-- Third Row -->
+            <div class="column">
+                <div class="company-logo"></div>
+                <div class="feature-benefit">
+                    <span>Feature/Benefit #1</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
+                <div class="feature-description">
+                    <span>Feature/Description #1</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
             </div>
-            <div class="control-group">
-                <label for="btnColor">Button Color:</label>
-                <input type="color" id="btnColor" value="#4caf50">
-                <button id="applyBtnColor">Apply</button>
+            <div class="column">
+                <div class="company-logo"></div>
+                <div class="feature-benefit">
+                    <span>Feature/Benefit #2</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
+                <div class="feature-description">
+                    <span>Feature/Description #2</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
             </div>
-            <div class="control-group">
-                <label for="hoverColor">Hover Color:</label>
-                <input type="color" id="hoverColor" value="#45a049">
-                <button id="applyHoverColor">Apply</button>
-            </div>
-            <div class="control-group">
-                <button id="resetColors">Reset Colors</button>
+            <div class="column">
+                <div class="company-logo"></div>
+                <div class="feature-benefit">
+                    <span>Feature/Benefit #3</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
+                <div class="feature-description">
+                    <span>Feature/Description #3</span>
+                    <button class="color-change-btn">Change</button>
+                </div>
             </div>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
