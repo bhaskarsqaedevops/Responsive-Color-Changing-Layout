@@ -37,12 +37,15 @@ body {
 .company-logo {
     height: 100px;
     background-color: #87CEFA;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
     display: flex;
     align-items: center;
     justify-content: center;
     color: red;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 
 .feature-benefit,
@@ -55,14 +58,22 @@ body {
     align-items: center;
 }
 
-.color-change-btn {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 6px 10px;
+.color-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.color-btn {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 12px;
+}
+
+.color-btn:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
